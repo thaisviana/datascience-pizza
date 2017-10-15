@@ -118,7 +118,11 @@ Existem matrizes que apresentam maior utilidade e possuem um nome diferenciado (
 
 **Regressão Linear**: Conceitualmente, é uma técnica para analisar dados e encontrar uma formulação matemática linear e explícita que descreva de maneira aproximada o comportamento (a relação) dos dados. Na prática, é encontrar dois coeficientes (linear e angular) que minimizem o erro quadrático entre a a função linear resultante e os dados. [1](http://www.mit.edu/~6.s085/notes/lecture3.pdf)
 
-**Redes Neurais**: São sistemas físicos que podem adquirir, armazenar e utilizar conhecimentos experimentais, que podem alcançar uma boa performance, devido à sua densa interconexão entre os nós da rede. (Lippmann, 1997 apud. Fernandes, 2003)
+**Redes Neurais Artificais (RNAs)**: São sistemas físicos que podem adquirir, armazenar e utilizar conhecimentos experimentais, que podem alcançar uma boa performance, devido à sua densa interconexão entre os nós da rede. (Lippmann, 1997 apud. Fernandes, 2003)
+
+O conhecimento de uma RNA está codificado na estrutura da rede, onde se destacam as sinapses entre os neurônios que a compõe. Nestas tradicionais RNAs são associadas, a cada conexão, um peso sináptico que caracteriza a força da conexão entre dois neurônios. E o aprendizado é realizado por um processo de adaptação dos seus pesos sinápticos (OSÓRIO, Fernando S., João Ricardo Bittencourt, and Fernando Santos Osório, 2000).
+
+Esses pesos representam dois tipos de sinapses: as inibitórias são representadas como pesos negativos e as excitatórias com pesos positivos. Durante a fase de treinamento, os pesos sinápticos são balanceados para que a rede consiga executar o procedimento desejado. 
 
 **Random Forest**: método de aprendizado usado para classificação, regressão e outras aplicações, que se baseia na junção de outros algorítimos conhecidos
 (logistic regression, linear regression,etc). Esse modelo é obtido pela construção de árvores de decisão, que conforme vão sendo construídas, decidem
